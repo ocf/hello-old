@@ -1,7 +1,8 @@
-Website for recruiting new staff
+hello
 ========
+
+Advertising and recruitment website for the [Open Computing Facility](https://www.ocf.berkeley.edu/) at UC Berkeley.
 
 # Deployment
 
-    compass compile
-    scp -r index.html images fonts javascripts stylesheets death:/srv/sites/hello/
+    ./deploy.sh
