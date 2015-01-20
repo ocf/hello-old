@@ -4,7 +4,7 @@ $color-blue-baby: #cbe1ea;
 $color-blue-light: #f8fcfc;
 $color-blue: #298399;
 $color-gray-light: #ccc;
-$color-gray: #888;
+$color-gray: #222;
 $color-green-light: #ddee99;
 $color-yellow-light: #ffffcc;
 $color-penguin-blue: #0f4d92;
@@ -323,6 +323,165 @@ $footer-bottom-color: $color-gray;
       margin-bottom: 5px;
 
       color: #bbb;
+    }
+  }
+}
+
+$lab-color-blue1: #3E454C;
+$lab-color-blue2: #2185C5;
+$lab-color-blue3: #7ECEFD;
+$lab-color-white1: #FFF6E5;
+$lab-color-white2: #EDF7F2;
+$lab-color-red: #FF7F66;
+
+$lab-color-green1: #96CA2D;
+$lab-color-green2: #B5E655;
+$lab-color-blue4: #4BB5C1;
+$lab-color-blue5: #7FC6BC;
+
+$lab-bg-color: $lab-color-green2;
+
+.ocf-lab {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  background-color: $lab-bg-color;
+
+  .ocf-footer {
+    background-color: $lab-bg-color;
+  }
+
+  .container {
+    background-color: $lab-color-white2;
+  }
+
+
+  .name-holder {
+    @media (min-width: 768px) {
+      height: 41px;
+
+      > div {
+        padding: 25px 15px;
+      }
+    }
+    .lab-logo {
+      padding: 25px 15px;
+    }
+
+    .penguin {
+      padding: 25px 15px;
+      background-image: url("../images/penguin.svg");
+      background-repeat: no-repeat;
+      background-size: 31px 41px;
+      background-position: 15px 19px;
+
+      padding-left: 58px;
+      color: #111;
+      font-size: 20px;
+      font-weight: 600;
+
+      @media (max-width: 991px) {
+        font-size: 18px;
+      }
+
+      &:hover {
+        text-decoration: none;
+        color: #444;
+      }
+    }
+
+    .nav {
+      @media (min-width: 768px) {
+        text-align: right;
+      }
+      padding-right: 30px;
+
+      li {
+        display: inline;
+        font-size: 16px;
+
+        @media (min-width: 768px) {
+          margin-left: 20px;
+
+          @media (max-width: 991px) {
+            margin-left: 10px;
+            font-size: 14px;
+          }
+        }
+
+        @media (max-width: 767px) {
+          margin-right: 10px;
+        }
+
+        a {
+          color: #111;
+
+          &:hover {
+            text-decoration: none;
+            color: #444;
+          }
+        }
+      }
+    }
+  }
+
+  .lab-intro {
+
+    p {
+      color: #111;
+      font-size: 18px !important;
+      text-align: center;
+    }
+
+    p.intro {
+      padding: 10px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }
+
+
+  h2, h3 {
+    color: #333 !important;
+    font-size: 48px;
+    text-align: center;
+
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  h2 {
+    font-size: 32px;
+    margin-top: 0px;
+  }
+  h3 {
+    margin-top: 20px;
+    font-size: 36px;
+  }
+
+  .ocf-copyright {
+    padding: 15px;
+    p { color: #555; }
+  }
+
+  .learnmore > a {
+    margin: 15px 0;
+    font-size: 20px;
+    padding: 15px;
+    background-color: $lab-color-green1;
+    color: white;
+
+    &:hover {
+      background-color: $lab-color-green2;
+    }
+  }
+
+  .ocf-logos img {
+    @media (max-width: 991px) {
+      width: 64px;
+      height: 64px;
+    }
+
+    @media (max-width: 1199px) and (min-width: 992px) {
+      width: 84px;
+      height: 84px;
     }
   }
 }
