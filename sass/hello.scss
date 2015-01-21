@@ -334,8 +334,8 @@ $lab-color-white1: #FFF6E5;
 $lab-color-white2: #EDF7F2;
 $lab-color-red: #FF7F66;
 
-$lab-color-green2: #3E606F;
-$lab-color-green1: #193441;
+$lab-color-green1: #225378;
+$lab-color-green2: #1695A3;
 $lab-color-blue4: #4BB5C1;
 $lab-color-blue5: #7FC6BC;
 
@@ -442,14 +442,14 @@ $lab-bg-color: $lab-color-green2;
 
   h2, h3 {
     color: #333 !important;
-    font-size: 48px;
     text-align: center;
 
     margin-left: 10px;
     margin-right: 10px;
+    font-weight: 600;
   }
   h2 {
-    font-size: 32px;
+    font-size: 28px;
     margin-top: 0px;
   }
   h3 {
@@ -470,7 +470,7 @@ $lab-bg-color: $lab-color-green2;
     color: white;
 
     &:hover {
-      background-color: $lab-color-green2;
+      background-color: #EB7F00;
     }
   }
 
