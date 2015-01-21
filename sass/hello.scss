@@ -334,14 +334,15 @@ $lab-color-white1: #FFF6E5;
 $lab-color-white2: #EDF7F2;
 $lab-color-red: #FF7F66;
 
-$lab-color-green1: #96CA2D;
-$lab-color-green2: #B5E655;
+$lab-color-green2: #3E606F;
+$lab-color-green1: #193441;
 $lab-color-blue4: #4BB5C1;
 $lab-color-blue5: #7FC6BC;
 
 $lab-bg-color: $lab-color-green2;
 
-.ocf-lab {
+.ocf-lab2 {
+  margin-top: 20px;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   background-color: $lab-bg-color;
 
